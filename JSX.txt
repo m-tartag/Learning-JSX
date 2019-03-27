@@ -1,0 +1,47 @@
+JSX is a syntax extension for JavaScript. It was written to be used with React. JSX come looks a lot like HTML.
+
+If a JavaScript file contains JSX code, then that file will have to be compiled.
+
+Before the file reaches a web browser —> a JSX compiler will translate any JSX into regular JS
+
+A basic unit of JSX is called an element.
+
+	Ex:  <h1>Hello World</h1>
+
+This looks just like HTML! The only difference is that you would find this in a JavaScript file, not an HTML file.
+
+JSX elements are treated as JavaScript EXPRESSIONS.  They can go anywhere that JavaScript expressions can go.
+
+That means that a JSX element can be saved in a variable passed to a function, store in an object or array.. you name it.
+
+Here’s an example of a JSX element being saved in a variable: 
+
+ex:   const navBar = <nav>I am a nav bar</nav>
+
+Here’s an example of several JSX elements being stood in an object: 
+
+const myTeam = {
+  center: <li>Benzo Walli</li>,
+  powerForward: <li>Rasha Loa</li>,
+  smallForward: <li>Tayshaun Dasmoto</li>,
+  shootingGuard: <li>Colmar Cumberbatch</li>,
+  pointGuard: <li>Femi Billon</li>
+};
+
+JSX elements can have ATTRIBUTES just like HTML elements can. 
+
+A JSX attribute is written using HTML-like syntax: a name, followed by an equals sign, followed by a value. The value should be wrapped in quotes, like this:
+
+		My-attribute-name=“my-attribute-value”
+
+	Ex:  <a href="http://www.example.com">Welcome to the Web</a>;
+
+		const title = <h1 id="title">Introduction to React.js: Part I</h1>; 
+
+	A single JSX element can have many attributes, just like in HTML:
+
+		const panda = <img src="images/panda.jpg" alt="panda" 					width="500px" height="500px" />;
+
+
+
+
